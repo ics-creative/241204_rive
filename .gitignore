@@ -8,3 +8,11 @@
 *.njsproj
 *.sln
 *.sw?
+.cache
+.parcel-cache
+
+# Dependencies
+/node_modules
+
+# Production build
+/dist

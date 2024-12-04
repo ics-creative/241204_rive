@@ -1,0 +1,23 @@
+{
+  "name": "241204_rive",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rive-app/canvas": "^2.23.11"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "parcel": "^2.13.2",
+    "parcel-reporter-static-files-copy": "^1.5.3"
+  }
+}
